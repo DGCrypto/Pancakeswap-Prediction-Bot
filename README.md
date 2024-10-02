@@ -10,3 +10,31 @@ All investment strategies and investments inherently involve risks, including th
 npm i web3 axios dotenv readline
 
 Node index.js
+
+Place private key and wallet address in ENV File and Save-as ".env"
+
+PRIVATE_KEY=# indent to new line and add WALLET_ADDRESS WALLET_ADDRESS=#
+
+.env file
+
+Fill out .env file with account address, privkey.
+
+NPM and node.js is needed to install and run.
+
+Instructions!
+
+Download index.js
+"npm i web3 axios dotenv readline"
+Fill out env file! Save as .env
+Use command "Node index.js"
+npm i web3 axios dotenv readline
+
+Node index.js
+
+Rsi thresholds for crossover are up to user discretion.
+
+Recommend starting program with 1 minute before next round as oracle timing isn't implemented yet.
+
+Bot has had stratrgies average up to 60% win rate in limited testing.
+
+10% of profit from usage goes to development of script.
